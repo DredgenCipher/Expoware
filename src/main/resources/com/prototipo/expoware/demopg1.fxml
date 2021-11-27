@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.prototipo.expoware.Controller">
+   <children>
+      <BorderPane prefHeight="800.0" prefWidth="1200.0">
+         <top>
+            <HBox prefHeight="102.0" prefWidth="200.0" style="-fx-background-color: #696969;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="homebtt" mnemonicParsing="false" onAction="#homepg" prefHeight="101.0" prefWidth="174.0" style="-fx-background-color: #696969;" text="EXPOWARE" textFill="#f50505">
+                     <font>
+                        <Font name="Book Antiqua" size="24.0" />
+                     </font>
+                  </Button>
+                  <Label prefHeight="111.0" prefWidth="28.0" text="|" textFill="#f50505">
+                     <font>
+                        <Font name="Centaur" size="63.0" />
+                     </font>
+                  </Label>
+                  <Button mnemonicParsing="false" onAction="#displayerror" prefHeight="101.0" prefWidth="164.0" style="-fx-background-color: #696969; -fx-border-color: #8B0000;" text="2018" textFill="WHITE">
+                     <font>
+                        <Font name="Agency FB" size="35.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#displayerror" prefHeight="101.0" prefWidth="164.0" style="-fx-background-color: #696969; -fx-border-color: #8B0000;" text="2019" textFill="WHITE">
+                     <font>
+                        <Font name="Agency FB" size="35.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="yearbtt2020" mnemonicParsing="false" onAction="#gotoyear2020" prefHeight="101.0" prefWidth="164.0" style="-fx-background-color: #696969; -fx-border-color: #8B0000;" text="2020" textFill="WHITE">
+                     <font>
+                        <Font name="Agency FB" size="35.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="yearbtt2021" mnemonicParsing="false" onAction="#homepg" prefHeight="101.0" prefWidth="164.0" style="-fx-background-color: #696969; -fx-border-color: #8B0000;" text="2021" textFill="WHITE">
+                     <font>
+                        <Font name="Agency FB" size="35.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#notavailable" prefHeight="101.0" prefWidth="164.0" style="-fx-background-color: #696969; -fx-border-color: #8B0000;" text="2022" textFill="WHITE">
+                     <font>
+                        <Font name="Agency FB" size="35.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="userbtt" mnemonicParsing="false" onAction="#userprofile" prefHeight="101.0" prefWidth="174.0" style="-fx-background-color: #696969; -fx-border-color: #8B0000;" text="User">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="52.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\user_icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox layoutX="15.0" layoutY="22.0" prefHeight="198.0" prefWidth="1170.0" style="-fx-background-color: #A9A9A9;">
+                     <children>
+                        <VBox prefHeight="198.0" prefWidth="422.0">
+                           <children>
+                              <Label prefHeight="36.0" prefWidth="422.0" text=" Nome do jogo :">
+                                 <font>
+                                    <Font name="Agency FB" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="43.0" prefWidth="431.0" text=" (NOME DO JOGO)">
+                                 <font>
+                                    <Font name="Agency FB" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="447.0" text="Desenvolvedora:">
+                                 <font>
+                                    <Font name="Agency FB" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="37.0" prefWidth="302.0" text=" (NOME DA DESENVOLVEDORA)">
+                                 <font>
+                                    <Font name="Agency FB" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="17.0" prefWidth="322.0" text="Genêro do jogo :">
+                                 <font>
+                                    <Font name="Agency FB" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label text=" (GENÊRO DO JOGO)">
+                                 <font>
+                                    <Font name="Agency FB" size="30.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <Label alignment="CENTER" prefHeight="209.0" prefWidth="112.0" text="|">
+                           <font>
+                              <Font name="Centaur" size="160.0" />
+                           </font>
+                        </Label>
+                        <VBox prefHeight="198.0" prefWidth="287.0">
+                           <children>
+                              <Label prefHeight="50.0" prefWidth="287.0" text=" Data de Lançamento :">
+                                 <font>
+                                    <Font name="Agency FB" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="75.0" prefWidth="307.0" text=" (DD/MM/YY)">
+                                 <font>
+                                    <Font name="Agency FB" size="30.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="198.0" prefWidth="355.0">
+                           <children>
+                              <Button alignment="CENTER" mnemonicParsing="false" onAction="#displayerror" prefHeight="87.0" prefWidth="192.0" style="-fx-background-color: #696969; -fx-border-color: #8B0000;" text="JOGAR" textFill="RED">
+                                 <font>
+                                    <Font name="Agency FB" size="50.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <AnchorPane layoutX="15.0" layoutY="242.0" prefHeight="434.0" prefWidth="1170.0" style="-fx-background-color: #A9A9A9;">
+                     <children>
+                        <Label alignment="TOP_CENTER" layoutX="365.0" prefHeight="437.0" prefWidth="88.0" text="|">
+                           <font>
+                              <Font name="Agency FB" size="335.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="7.0" prefHeight="78.0" prefWidth="364.0" text="Área de feedback :">
+                           <font>
+                              <Font name="Agency FB" size="43.0" />
+                           </font>
+                        </Label>
+                        <TextArea layoutX="29.0" layoutY="174.0" prefHeight="74.0" prefWidth="326.0" />
+                        <TextField layoutX="27.0" layoutY="106.0" prefHeight="25.0" prefWidth="233.0" />
+                        <Label layoutX="29.0" layoutY="79.0" prefHeight="17.0" prefWidth="114.0" text="Feedback :">
+                           <font>
+                              <Font name="Agency FB" size="22.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="29.0" layoutY="138.0" text="Descrição do feedback :">
+                           <font>
+                              <Font name="Agency FB" size="24.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="27.0" layoutY="262.0" mnemonicParsing="false" onAction="#displayerror" prefHeight="29.0" prefWidth="118.0" text="Enviar" />
+                        <BorderPane layoutX="463.0" layoutY="74.0" prefHeight="355.0" prefWidth="700.0">
+                           <center>
+                              <TabPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFAFA;" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+                                <tabs>
+                                  <Tab text="Untitled Tab 1">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                             <children>
+                                                <ImageView fitHeight="133.0" fitWidth="264.0" layoutX="59.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\Blank.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="133.0" fitWidth="273.0" layoutX="378.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\Blank.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="133.0" fitWidth="236.0" layoutX="59.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\Blank.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="132.0" fitWidth="236.0" layoutX="378.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\Blank.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </AnchorPane>
+                                    </content>
+                                  </Tab>
+                                  <Tab text="Untitled Tab 2">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                    </content>
+                                  </Tab>
+                                </tabs>
+                              </TabPane>
+                           </center>
+                        </BorderPane>
+                        <Label layoutX="453.0" layoutY="7.0" prefHeight="78.0" prefWidth="364.0" text="Captura de tela:">
+                           <font>
+                              <Font name="Agency FB" size="43.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="27.0" layoutY="291.0" text="Lista de feedbacks :">
+                           <font>
+                              <Font name="Agency FB" size="24.0" />
+                           </font>
+                        </Label>
+                        <HBox layoutX="29.0" layoutY="320.0" prefHeight="103.0" prefWidth="341.0" style="-fx-background-color: #FFFAFA;">
+                           <children>
+                              <VBox prefHeight="103.0" prefWidth="129.0">
+                                 <children>
+                                    <Label prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: #696969; -fx-border-color: #8B0000;" text="(NOME DO FEEDBACK)" textFill="WHITE" />
+                                    <Label prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: #696969; -fx-border-color: #8B0000;" text="(NOME DO FEEDBACK)" textFill="WHITE" />
+                                    <Label prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: #696969; -fx-border-color: #8B0000;" text="(NOME DO FEEDBACK)" textFill="WHITE" />
+                                    <Label prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: #696969; -fx-border-color: #8B0000;" text="(NOME DO FEEDBACK)" textFill="WHITE" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="103.0" prefWidth="91.0">
+                                 <children>
+                                    <Label prefHeight="31.0" prefWidth="132.0" style="-fx-border-color: #000000;" text="(DD/MM/YY)" />
+                                    <Label prefHeight="31.0" prefWidth="132.0" style="-fx-border-color: #000000;" text="(DD/MM/YY)" />
+                                    <Label prefHeight="31.0" prefWidth="132.0" style="-fx-border-color: #000000;" text="(DD/MM/YY)" />
+                                    <Label prefHeight="31.0" prefWidth="132.0" style="-fx-border-color: #000000;" text="(DD/MM/YY)" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="103.0" prefWidth="121.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#displayerror" prefHeight="31.0" prefWidth="125.0" style="-fx-border-color: #8B0000; -fx-background-color: #D3D3D3;" text="Opções" />
+                                    <Button mnemonicParsing="false" onAction="#displayerror" prefHeight="31.0" prefWidth="125.0" style="-fx-border-color: #8B0000; -fx-background-color: #D3D3D3;" text="Opções" />
+                                    <Button mnemonicParsing="false" onAction="#displayerror" prefHeight="31.0" prefWidth="125.0" style="-fx-border-color: #8B0000; -fx-background-color: #D3D3D3;" text="Opções" />
+                                    <Button mnemonicParsing="false" onAction="#displayerror" prefHeight="31.0" prefWidth="125.0" style="-fx-border-color: #8B0000; -fx-background-color: #D3D3D3;" text="Opções" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
