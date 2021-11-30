@@ -51,14 +51,14 @@
                         <Font name="Agency FB" size="35.0" />
                      </font>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#userprofile" prefHeight="101.0" prefWidth="174.0" style="-fx-background-color: #696969; -fx-border-color: #8B0000;" text="User">
+                  <Button fx:id="userbtt" mnemonicParsing="false" onAction="#userprofile" prefHeight="101.0" prefWidth="174.0" style="-fx-background-color: #696969; -fx-border-color: #8B0000;" text="User">
                      <font>
                         <Font name="Agency FB" size="35.0" />
                      </font>
                      <graphic>
                         <ImageView fitHeight="52.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\user_icon.png" />
+                              <Image url="@../../../../java/com/prototipo/expoware/icons/user_icon.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -97,7 +97,7 @@
                      <children>
                         <ImageView fitHeight="200.0" fitWidth="282.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\user_icon.png" />
+                              <Image url="@../../../../java/com/prototipo/expoware/icons/user_icon.png" />
                            </image>
                         </ImageView>
                         <Label prefHeight="203.0" prefWidth="261.0" text="Username">

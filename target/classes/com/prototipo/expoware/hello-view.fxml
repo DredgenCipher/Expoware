@@ -59,7 +59,7 @@
                         </ImageView>
                      </graphic>
                      <font>
-                        <Font name="Agency FB" size="20.0" />
+                        <Font name="Agency FB" size="35.0" />
                      </font>
                   </Button>
                </children>
@@ -187,7 +187,7 @@
                                              <graphic>
                                                 <ImageView fitHeight="80.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
-                                                      <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\controller_icon.png" />
+                                                      <Image url="@../../../../java/com/prototipo/expoware/icons/controller_icon.png" />
                                                    </image>
                                                 </ImageView>
                                              </graphic>
@@ -214,7 +214,7 @@
                                              <graphic>
                                                 <ImageView fitHeight="80.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
-                                                      <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\controller_icon.png" />
+                                                      <Image url="@../../../../java/com/prototipo/expoware/icons/controller_icon.png" />
                                                    </image>
                                                 </ImageView>
                                              </graphic>
@@ -242,7 +242,7 @@
                                              <graphic>
                                                 <ImageView fitHeight="80.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
-                                                      <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\controller_icon.png" />
+                                                      <Image url="@../../../../java/com/prototipo/expoware/icons/controller_icon.png" />
                                                    </image>
                                                 </ImageView>
                                              </graphic>
@@ -270,7 +270,7 @@
                                              <graphic>
                                                 <ImageView fitHeight="80.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
-                                                      <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\controller_icon.png" />
+                                                      <Image url="@../../../../java/com/prototipo/expoware/icons/controller_icon.png" />
                                                    </image>
                                                 </ImageView>
                                              </graphic>
