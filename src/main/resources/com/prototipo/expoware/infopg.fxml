@@ -208,7 +208,7 @@
                                                 </Label>
                                                 <ImageView fitHeight="150.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
-                                                      <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\Blank.png" />
+                                                      <Image url="@../../../../java/com/prototipo/expoware/icons/Blank.png" />
                                                    </image>
                                                 </ImageView>
                                                 <Label prefHeight="52.0" prefWidth="235.0" text="(ENTREVISTA EM TEXTO)">
@@ -223,7 +223,7 @@
                                                 </Label>
                                                 <ImageView fitHeight="150.0" fitWidth="230.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
-                                                      <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\Blank.png" />
+                                                      <Image url="@../../../../java/com/prototipo/expoware/icons/Blank.png" />
                                                    </image>
                                                 </ImageView>
                                              </children>
@@ -246,7 +246,7 @@
                                                 </Label>
                                                 <ImageView fitHeight="156.0" fitWidth="283.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
-                                                      <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\Blank.png" />
+                                                      <Image url="@../../../../java/com/prototipo/expoware/icons/Blank.png" />
                                                    </image>
                                                 </ImageView>
                                                 <Label text="(TRAILER DE JOGO) :">
@@ -256,7 +256,7 @@
                                                 </Label>
                                                 <ImageView fitHeight="156.0" fitWidth="283.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
-                                                      <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\Blank.png" />
+                                                      <Image url="@../../../../java/com/prototipo/expoware/icons/Blank.png" />
                                                    </image>
                                                 </ImageView>
                                              </children>
@@ -279,12 +279,12 @@
                                                 </Label>
                                                 <ImageView fitHeight="24.0" fitWidth="142.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
-                                                      <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\live.png" />
+                                                      <Image url="@../../../../java/com/prototipo/expoware/icons/live.png" />
                                                    </image>
                                                 </ImageView>
                                                 <ImageView fitHeight="169.0" fitWidth="278.0" pickOnBounds="true" preserveRatio="true">
                                                    <image>
-                                                      <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\Blank.png" />
+                                                      <Image url="@../../../../java/com/prototipo/expoware/icons/Blank.png" />
                                                    </image>
                                                 </ImageView>
                                                 <Label text="GRAVAÇÕES :">
@@ -298,22 +298,22 @@
                                                          <children>
                                                             <ImageView fitHeight="124.0" fitWidth="147.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                                                                <image>
-                                                                  <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\Blank.png" />
+                                                                  <Image url="@../../../../java/com/prototipo/expoware/icons/Blank.png" />
                                                                </image>
                                                             </ImageView>
                                                             <ImageView fitHeight="124.0" fitWidth="147.0" layoutX="175.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                                                                <image>
-                                                                  <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\Blank.png" />
+                                                                  <Image url="@../../../../java/com/prototipo/expoware/icons/Blank.png" />
                                                                </image>
                                                             </ImageView>
                                                             <ImageView fitHeight="124.0" fitWidth="147.0" layoutX="14.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
                                                                <image>
-                                                                  <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\Blank.png" />
+                                                                  <Image url="@../../../../java/com/prototipo/expoware/icons/Blank.png" />
                                                                </image>
                                                             </ImageView>
                                                             <ImageView fitHeight="124.0" fitWidth="147.0" layoutX="175.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
                                                                <image>
-                                                                  <Image url="C:\Users\jlcbc\eclipse-workspace\Expoware\src\main\java\com\prototipo\expoware\icons\Blank.png" />
+                                                                  <Image url="@../../../../java/com/prototipo/expoware/icons/Blank.png" />
                                                                </image>
                                                             </ImageView>
                                                          </children>
